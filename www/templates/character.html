@@ -1,4 +1,4 @@
-<div ng-repeat="character in more.characters" class="character-container" >
+<div ng-repeat="character in more.characters | filter: search" class="character-container" >
 	<a href="#/{{character.id}}">
 		<div class="character"
 		style="background-image: url({{character.thumbnail.path}}.{{character.thumbnail.extension}})" >

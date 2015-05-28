@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body ng-controller="MainCtrl">
+    <div class="div-search"><input type="text" class="input-search" placeholder="Filtrar Personagens" ng-model="search" /></div>
 	<div ui-view infinite-scroll="more.load()" infinite-scroll-distance="0" infinite-scroll-disabled='more.busy' class="main-container"></div>
 	<!--<div class="credit"><a href="http://marvel.com" target="_blank">Data provided by Marvel. © 2014 Marvel</a></div>-->
 </body>
