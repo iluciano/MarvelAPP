@@ -53,7 +53,7 @@ app.directive('popup',function() {
 });
 
 app.factory('ComicBooks',function($http,$q){
-	http:var publicKey='2bb183e5697a03a2987eb303ee99178c';
+	var publicKey='2bb183e5697a03a2987eb303ee99178c';
 	var marvelHash='5e5518ca7b21a47fef07ccf84c7c8446';
 	var baseUrl='http://gateway.marvel.com/v1/';
 	var limit=100;
